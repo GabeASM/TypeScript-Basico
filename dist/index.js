@@ -36,13 +36,18 @@ const estado = 2;
 const objeto = {
     id: 1,
     nombre: "Hola mundo",
-    talla: Talla.Chica
+    talla: Talla.Chica,
 };
 function suma(numero1, numero2) {
     return numero1 + numero2;
 }
-class miClase {
-    miAtributo;
-    miSegundoAtributo;
+function imprimirHola() {
+    console.log("hola");
+}
+function multiplicar(num1, num2) {
+    return num1 * num2;
+}
+function sumar(a, b, c) {
+    return a + b + (c || 0);
 }
 //# sourceMappingURL=index.js.map
